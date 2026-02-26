@@ -15,24 +15,20 @@ export default function CardItem({name, avatarImg, email, location, experience,r
         <div className={classes.userInfo}>
           <h2 className={classes.name}>{name}</h2>
                 <h2 className={classes.role}>{role}</h2>
-          <p className={classes.role}>Frontend developer</p>
         </div>
       </div>
 
       <div className={classes.details}>
         <div className={classes.detailItem}>
           <span className={classes.label}>{email}</span>
-          <span>raj@gamil.com</span>
         </div>
 
         <div className={classes.detailItem}>
           <span className={classes.label}>{location}</span>
-          <span>Kathmandu, Nepal</span>
         </div>
 
         <div className={classes.detailItem}>
           <span className={classes.label}>{experience}</span>
-          <span>3 Years</span>
         </div>
       </div>
 

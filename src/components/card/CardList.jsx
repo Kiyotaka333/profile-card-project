@@ -9,7 +9,7 @@ export default function CardList() {
         name="Raj"
         avatarImg={userAvatarImg}
         email="raj@gmail.com"
-        lacation="ktm"
+        location="ktm"
         experience="3 yrs"
         role="CEO"
       />
@@ -17,7 +17,7 @@ export default function CardList() {
         name="Ron"
         avatarImg={userAvatarImg}
         email="ron@gmail.com"
-        lacation="china"
+        location="china"
         experience="2 yrs"
         role="employee"
       />
@@ -25,7 +25,7 @@ export default function CardList() {
         name="Ram"
         avatarImg={userAvatarImg}
         email="ram@gmail.com"
-        lacation="pokhara"
+        location="pokhara"
         experience="5 yrs"
         role="hero"
       />
@@ -33,7 +33,7 @@ export default function CardList() {
         name="Rak"
         avatarImg={userAvatarImg}
         email="rak@gmail.com"
-        lacation="America"
+        l0cation="America"
         experience="4 yrs"
         role="manager"
       />
