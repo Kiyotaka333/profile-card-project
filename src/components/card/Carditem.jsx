@@ -1,14 +1,16 @@
-import Tonystank from '../../assets/images/tony.jpg';
-import classes from './CardItem.module.css';
+import Tonystank from "../../assets/images/tony.jpg";
+import classes from "./CardItem.module.css";
 
 export default function CardItem(props) {
   return (
     <div className={classes.card}>
       <div className={classes.header}>
-        <img className={classes.avatar} src={Tonystank} alt="profile avatar" />
+        <img className={classes.avatar} 
+        src={props.avatarImg}
+         alt="profile avatar" />
 
         <div className={classes.userInfo}>
-          <h2 className={classes.name}>Rajkumar Gurung</h2>
+          <h2 className={classes.name}>{props.name}</h2>
           <p className={classes.role}>Frontend developer</p>
         </div>
       </div>
