@@ -1,7 +1,7 @@
 import Tonystank from '../../assets/images/tony.jpg';
 import classes from './CardItem.module.css';
 
-export default function CardItem() {
+export default function CardItem(props) {
   return (
     <div className={classes.card}>
       <div className={classes.header}>
